@@ -24,3 +24,8 @@ Start-Process -FilePath "C:\Temp\GenerateStrongPassword.ahk"
 #To test if the script is working, please press CTRL + Num1 (the 1 key on your number pad) at the same time.
 #A powershell prompt will, for a split second, run on your computer, and it will automatically paste your secure password on your clipboard
 #Try pasting the password here!: 
+
+
+#**ADDITIONALLY** you can open a powershell prompt at any time and type in GenerateStrongPassword(any number of characters you want the PW to be here)
+#Example: GenerateStrongPassword(24)
+#Example 2: GenerateStrongPassword(13) | clip (this will copy the content to your clipboard

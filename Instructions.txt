@@ -1,0 +1,18 @@
+Instructions to install a function to randomly generate a strong, 12-character password, using CTRL+Numkey1, and automatically pasting 
+it to your clipboard.
+
+1. Create a folder named "Temp" and place it under the root of C:
+	For example, the path of the folder should be: C:\Temp
+
+2. Download the contents from Github into a .ZIP file.
+
+3. Extract the Content into the root of the folder we just created "C:\Temp\"
+	You may have to remove a parent folder in the process.
+	For example, the path of all the files should be C:\Temp\Setup-GenerateStrongPassword.ps1" or "C:\Temp\XXXFile.exe"
+	NOT "C:\Temp\GenerateStrongPassword-master\XXXFile.exe"
+
+4. Once you have the content files in the root of C:\Temp, run "Powershell ISE" as an Administrator *IMPORTANT* To run as Administrator
+
+5. Once Powershell ISE is open, select File > Open > C:\Temp\Setup-GenerateStrongPassword.ps1"
+
+6. Run this script line by line. Directions will continue on the script itself. 
